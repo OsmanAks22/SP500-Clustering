@@ -1,0 +1,17 @@
+# Environments
+.venv/
+venv/
+.env
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Files the notebook writes when it runs (regenerated from live data)
+/sp500_constituents.csv
+/sp500_tickers.csv
+/sp500_metrics.csv
+/sp500_metrics_with_clusters.csv
+/fig_*.png
+
+.DS_Store
